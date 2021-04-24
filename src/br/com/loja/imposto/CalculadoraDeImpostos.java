@@ -1,0 +1,18 @@
+package br.com.loja.imposto;
+
+import java.math.BigDecimal;
+
+import br.com.loja.orcamento.Orcamento;
+
+public class CalculadoraDeImpostos {
+
+
+	/**
+	 * Aplicação do pattern Strategy, evitando o crescimento de classes que podem ter muitas variações.
+	 * Este padrão pode ser utilizado quando há diversos possíveis algoritmos para uma ação (como calcular imposto, por exemplo). 
+	 * Nele, nós separamos cada um dos possíveis algoritmos em classes separadas.
+	 */
+	public BigDecimal calcular(Orcamento orcamento, Imposto imposto) {
+		return imposto.calcular(orcamento);
+	}
+}
