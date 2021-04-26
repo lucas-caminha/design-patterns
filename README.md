@@ -1,6 +1,8 @@
 # design-patterns
 This repository contains some project pattern practices learned at Alura - Design Patterns course.
 <br/><br/>
+<b>Padrões Comportamentais</b>
+<br/><br/>
 Strategy
 <br/>
 https://refactoring.guru/design-patterns/strategy
