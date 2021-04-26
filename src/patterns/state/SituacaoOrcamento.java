@@ -1,9 +1,6 @@
-package br.com.loja.orcamento.situacao;
+package patterns.state;
 
 import java.math.BigDecimal;
-
-import br.com.loja.DomainException;
-import br.com.loja.orcamento.Orcamento;
 
 /**
  * Aplicado o padrão State

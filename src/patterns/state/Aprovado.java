@@ -1,8 +1,6 @@
-package br.com.loja.orcamento.situacao;
+package patterns.state;
 
 import java.math.BigDecimal;
-
-import br.com.loja.orcamento.Orcamento;
 
 public class Aprovado extends SituacaoOrcamento {
 	

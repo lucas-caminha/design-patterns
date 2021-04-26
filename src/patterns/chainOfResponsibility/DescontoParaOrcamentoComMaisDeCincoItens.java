@@ -1,8 +1,9 @@
-package br.com.loja.desconto;
+package patterns.chainOfResponsibility;
 
 import java.math.BigDecimal;
 
-import br.com.loja.orcamento.Orcamento;
+import patterns.state.Orcamento;
+import patterns.templateMethod.Desconto;
 
 public class DescontoParaOrcamentoComMaisDeCincoItens extends Desconto {
 

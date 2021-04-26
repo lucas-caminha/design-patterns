@@ -1,12 +1,12 @@
-package br.com.loja;
+package patterns.teste;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
 
-import br.com.loja.pedido.GeraPedido;
-import br.com.loja.pedido.GeraPedidoHandler;
-import br.com.loja.pedido.acao.EmailService;
-import br.com.loja.pedido.acao.PedidoRepository;
+import patterns.command.GeraPedido;
+import patterns.command.GeraPedidoHandler;
+import patterns.observer.EmailService;
+import patterns.observer.PedidoRepository;
 
 public class TestePedidos {
 

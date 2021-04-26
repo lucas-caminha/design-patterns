@@ -1,10 +1,10 @@
-package br.com.loja.imposto;
+package patterns.strategy;
 
 import java.math.BigDecimal;
 
-import br.com.loja.orcamento.Orcamento;
+import patterns.state.Orcamento;
 
-public class ICMS implements Imposto{
+public class ICMS implements Imposto {
 
 	@Override
 	public BigDecimal calcular(Orcamento orcamento) {

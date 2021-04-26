@@ -1,4 +1,4 @@
-package br.com.loja;
+package patterns.state;
 
 public class DomainException extends RuntimeException {
 

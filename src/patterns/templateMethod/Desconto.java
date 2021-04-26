@@ -1,8 +1,8 @@
-package br.com.loja.desconto;
+package patterns.templateMethod;
 
 import java.math.BigDecimal;
 
-import br.com.loja.orcamento.Orcamento;
+import patterns.state.Orcamento;
 
 public abstract class Desconto {
 

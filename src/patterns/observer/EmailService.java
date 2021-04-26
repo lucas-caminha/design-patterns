@@ -1,6 +1,6 @@
-package br.com.loja.pedido.acao;
+package patterns.observer;
 
-import br.com.loja.pedido.Pedido;
+import patterns.command.Pedido;
 
 public class EmailService implements AcaoAposGerarPedido{
 

@@ -1,8 +1,8 @@
-package br.com.loja.imposto;
+package patterns.strategy;
 
 import java.math.BigDecimal;
 
-import br.com.loja.orcamento.Orcamento;
+import patterns.state.Orcamento;
 
 public interface Imposto {
 	

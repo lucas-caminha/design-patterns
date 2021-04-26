@@ -1,6 +1,4 @@
-package br.com.loja.orcamento.situacao;
-
-import br.com.loja.orcamento.Orcamento;
+package patterns.state;
 
 public class Reprovado extends SituacaoOrcamento {
 	

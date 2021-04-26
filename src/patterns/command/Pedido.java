@@ -1,8 +1,8 @@
-package br.com.loja.pedido;
+package patterns.command;
 
 import java.time.LocalDateTime;
 
-import br.com.loja.orcamento.Orcamento;
+import patterns.state.Orcamento;
 
 public class Pedido {
 	

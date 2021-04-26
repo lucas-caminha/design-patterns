@@ -1,4 +1,4 @@
-package br.com.loja.pedido;
+package patterns.command;
 
 import java.math.BigDecimal;
 
