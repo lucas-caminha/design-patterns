@@ -38,4 +38,30 @@ Observer
 https://refactoring.guru/design-patterns/observer
 <br/>
 Observer é um padrão de design comportamental que permite definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que eles estão observando.
+<br/><br/>
+<b>Padrões Estruturais</b>
+<br/><br/>
+Adapter
 <br/>
+https://refactoring.guru/design-patterns/adapter
+<br/>
+Adaptador é um padrão de design estrutural que permite que objetos com interfaces incompatíveis colaborem.
+<br/><br/>
+Decorators
+<br/>
+https://refactoring.guru/design-patterns/decorator
+<br/>
+Decorator é um padrão de design estrutural que permite anexar novos comportamentos a objetos, colocando esses objetos dentro de objetos de invólucro especiais que contêm os comportamentos.
+<br/><br/>
+Composite 
+<br/>
+https://refactoring.guru/design-patterns/composite
+<br/>
+Composite é um padrão de projeto estrutural que permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais.
+<br/><br/>
+Facade
+<br/>
+https://refactoring.guru/design-patterns/facade
+<br/>
+Fachada é um padrão de design estrutural que fornece uma interface simplificada para uma biblioteca, uma estrutura ou qualquer outro conjunto complexo de classes.
+<br/><br/>
