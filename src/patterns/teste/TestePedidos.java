@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 import patterns.comportamentais.command.GeraPedido;
 import patterns.comportamentais.command.GeraPedidoHandler;
+import patterns.comportamentais.command.LogDePedido;
 import patterns.comportamentais.observer.EmailService;
 import patterns.comportamentais.observer.PedidoRepository;
 
@@ -22,7 +23,8 @@ public class TestePedidos {
 		GeraPedidoHandler handler = new GeraPedidoHandler(
 				Arrays.asList(
 						new PedidoRepository(),
-						new EmailService()
+						new EmailService(),
+						new LogDePedido()
 						)
 				);
 		
